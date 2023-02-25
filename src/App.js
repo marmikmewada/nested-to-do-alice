@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './App.scss';
-
 function App() {
   const [categories, setCategories] = useState([]);
   const [tasks, setTasks] = useState([]);
